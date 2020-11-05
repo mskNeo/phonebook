@@ -68,7 +68,7 @@ const App = () => {
           })
           .catch(error => {
             console.log(error.response.data)
-            handleNotification("Make sure to run server with 'npm run server' in terminal", 'error')
+            handleNotification(`${updatedPerson.name} not found in server`, 'error')
           })
       }
     } else {
@@ -82,7 +82,7 @@ const App = () => {
         })
         .catch(error => {
           console.log(error)
-          handleNotification(`${personObject.name} not found in server`, 'error')
+          handleNotification("Server not running", 'error')
         })
     }
   }
