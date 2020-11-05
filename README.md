@@ -4,4 +4,4 @@ A project made through the Fullstack Open curriculum.
 
 ### Run Program
 
-Once source code is downloaded, run `npm run server` to activate the json-server so web app will work properly.
+Once source code is downloaded, run `npm run server` to activate the json-server so web app will work properly. Then, visit website hosted by Netlify (https://neo-phonebook.netlify.app/)
