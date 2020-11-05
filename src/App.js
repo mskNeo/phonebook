@@ -68,7 +68,7 @@ const App = () => {
           })
           .catch(error => {
             console.log(error.response.data)
-            handleNotification(`${updatedPerson.name} not found in server`, 'error')
+            handleNotification("Make sure to run server with 'npm run server' in terminal", 'error')
           })
       }
     } else {
